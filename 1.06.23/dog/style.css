@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+.first_screen {
+    background: linear-gradient(104.04deg, #453023 0%, #020202 100%);
+    height: 100vh;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+}
+.logo h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #E17F3C;
+}
+.logo p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+ul {
+    width: 500px;
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+}
+ul a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text_hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer {
+    width: 435px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 105.5%;
+    color: #FFFFFF;
+}
+.offer p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 119.5%;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.offer a {
+    width: 270px;
+    background: #E17F3C;
+    border-radius: 100px;
+    padding: 18px 0;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 119.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.second_screen {
+    background: #F6F6F6;
+    padding: 60px 0;
+}
+.second_screen h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 119.5%;
+    text-align: center;
+    width: 380px;
+    margin: 0 auto 33px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 370px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    padding: 34px 0 26px;
+}
+.card:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 119.5%;
+    text-align: center;
+    color: #E17F3C;
+    margin: 20px 0;
+}
+.card a {
+    display: block;
+    width: 270px;
+    border: 2px solid #E17F3C;
+    border-radius: 100px;
+    padding: 15px 0;
+    font-size: 25px;
+    line-height: 119.5%;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #020202;
+}
+
+.btn_mob span{
+    display: none;
+    width: 40px;
+    height: 4px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+border-radius: 10px;
+}
